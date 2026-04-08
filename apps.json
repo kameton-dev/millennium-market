@@ -1,6 +1,7 @@
 {
-  "store_name": "MEmarket",
-  "last_updated": "2026-06-03",
+  "repo_name": "MEmarket basic",
+  "creator": "kameton.dev"
+  "last_updated": "2026-08-04",
   "apps": [
     {
       "id": 1,
@@ -111,6 +112,11 @@
       "download_url": "http://millenniummarket.ru/files/DWTD2.appxbundle.xap",
       "size": "23.8 MB",
       "category": "Games"
+    }
+  ]
+  "categories": [
+    {
+      "name": "Games"
     }
   ]
 }
