@@ -34,7 +34,7 @@
       "icon_url": "http://millenniummarket.ru/icons/sd.png",
       "download_url": "http://millenniummarket.ru/files/SimpleDictaphone.xap",
       "size": "0.6 MB",
-      "category": "Utilities"
+      "category": "Tools"
     },
     {
       "id": 4,
@@ -45,18 +45,18 @@
       "icon_url": "http://millenniummarket.ru/icons/ab.png",
       "download_url": "http://millenniummarket.ru/files/AitoBrowser.xap",
       "size": "7.6 MB",
-      "category": "Net"
+      "category": "Surfing"
     },
     {
       "id": 5,
       "title": "T-Translator",
       "version": "7.4",
-      "author": "Эугери Доманов",
+      "author": "Eugery Domanov",
       "description": "там описание на англ мне лень переводить",
       "icon_url": "http://millenniummarket.ru/icons/tt.png",
       "download_url": "http://millenniummarket.ru/files/T-Translator.xap",
       "size": "3.7 MB",
-      "category": "Utilities"
+      "category": "Tools"
     },
     {
       "id": 6,
@@ -67,7 +67,7 @@
       "icon_url": "http://millenniummarket.ru/icons/tp.png",
       "download_url": "http://millenniummarket.ru/files/ToolKitPro.appxbundle.xap",
       "size": "9 MB",
-      "category": "Utilities"
+      "category": "Tools"
     },
     {
       "id": 7,
@@ -78,7 +78,7 @@
       "icon_url": "http://millenniummarket.ru/icons/a64.png",
       "download_url": "http://millenniummarket.ru/files/AIDA64.appxbundle",
       "size": "0.5 MB",
-      "category": "Utilities"
+      "category": "Tools"
     },
     {
       "id": 8,
