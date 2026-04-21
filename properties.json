@@ -4,7 +4,7 @@
   "last_updated": "2026-08-04",
   "apps": [
     {
-      "id": market.me,
+      "id": 1,
       "title": "MEmarket",
       "version": "0.0.1.0 Public Beta",
       "author": "SimpleSoftware (kameton.dev)",
@@ -15,7 +15,7 @@
       "category": "Notes"
     },
     {
-      "id": 1,
+      "id": 2,
       "title": "SimpleNotes",
       "version": "1.1 SGU1",
       "author": "SimpleSoftware (kameton.dev)",
@@ -26,7 +26,7 @@
       "category": "Notes"
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "SimpleTasks",
       "version": "1.0 Release",
       "author": "SimpleSoftware (kameton.dev)",
@@ -37,7 +37,7 @@
       "category": "Notes"
     },
     {
-      "id": 3,
+      "id": 4,
       "title": "SimpleDictaphone",
       "version": "1.2 SGU1",
       "author": "SimpleSoftware (kameton.dev)",
@@ -48,7 +48,7 @@
       "category": "Tools"
     },
     {
-      "id": 4,
+      "id": 5,
       "title": "Aito Browser",
       "version": "V3",
       "author": "ChockingNetDude",
@@ -59,7 +59,7 @@
       "category": "Surfing"
     },
     {
-      "id": 5,
+      "id": 6,
       "title": "T-Translator",
       "version": "7.4",
       "author": "Eugery Domanov",
@@ -70,7 +70,7 @@
       "category": "Tools"
     },
     {
-      "id": 6,
+      "id": 7,
       "title": "ToolKit Pro",
       "version": "",
       "author": "CoolMedia.com",
@@ -81,7 +81,7 @@
       "category": "Tools"
     },
     {
-      "id": 7,
+      "id": 8,
       "title": "AIDA64",
       "version": "1.1.1.0",
       "author": "FinalWire Ltd.",
@@ -92,7 +92,7 @@
       "category": "Tools"
     },
     {
-      "id": 8,
+      "id": 9,
       "title": "OpenTracks",
       "version": "2.0.0.1",
       "author": "ChockingNetDude",
@@ -103,7 +103,7 @@
       "category": "Music+video"
     },
     {
-      "id": 9,
+      "id": 10,
       "title": "Hop!",
       "version": "1.1.0.0",
       "author": "?",
@@ -114,7 +114,7 @@
       "category": "Games"
     },
     {
-      "id": 10,
+      "id": 11,
       "title": "Dumb Ways To Die 2",
       "version": "?",
       "author": "Millipede",
