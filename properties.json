@@ -4,6 +4,17 @@
   "last_updated": "2026-08-04",
   "apps": [
     {
+      "id": market.me,
+      "title": "MEmarket",
+      "version": "0.0.1.0 Public Beta",
+      "author": "SimpleSoftware (kameton.dev)",
+      "description": "Актуальная версия магазина репозиторий MEmarket будет всегда под рукой!",
+      "icon_url": "http://millenniummarket.ru/icons/sn.png",
+      "download_url": "http://millenniummarket.ru/files/SimpleNotes.xap",
+      "size": "0,6 MB",
+      "category": "Notes"
+    },
+    {
       "id": 1,
       "title": "SimpleNotes",
       "version": "1.1 SGU1",
