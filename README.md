@@ -45,7 +45,7 @@ example-repo/
       "icon_url": "https://domain.com/icons/app1-icon.png",
       "download_url": "https://domain.com/files/app1.xap",
       "size": "1.5 MB",
-      "category": "Utilities"
+      "category": "category_example"
     },
     {
       "id": "com.example.game",
@@ -56,7 +56,7 @@ example-repo/
       "icon_url": "https://domain.com/icons/game1-icon.png",
       "download_url": "https://domain.com/files/game1.xap",
       "size": "1488 MB",
-      "category": "Games"
+      "category": "game"
     }
   ]
 }
@@ -71,12 +71,17 @@ example-repo/
 | size | Вес файла (для информирования пользователя. если что можете приколы там делать, я мока разрешаю) |
 
 ### Список актуальных сортируемых категорий:
-| "category": "..." файла properties.json | Название |
+| "category": "..." | Название |
 |---|---|
-| "Games" | Игры |
-| "Music+video" | Музыка + Видео |
-| "Education" | Обучение |
-| "Tools" | Инструменты |
+| "games" | Игры |
+| "entertaintment" | Развлечения |
+| "music+video" | Музыка + Видео |
+| "tools" | Инструменты |
+| "livestyle" | Лайвстайл |
+| "news+weather" | Новости + погода |
+| "social" | Социальные |
+| "education" | Обучение |
+
 
 >[!NOTE]
 >В колонке "category" вы можете писать абсолютно любые слова. Все прилодения с **нестандартными** категориями будут отправлять в одну общую - "Прочее".
