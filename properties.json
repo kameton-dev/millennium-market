@@ -6,6 +6,17 @@
     {
       "id": "me.market",
       "title": "MEmarket",
+      "version": "0.0.1.2 Public Beta",
+      "author": "SimpleSoftware (kameton.dev)",
+      "description": "Актуальная версия магазина репозиторий MEmarket будет всегда под рукой!",
+      "icon_url": "http://millenniummarket.ru/icons/logo-memarket.png",
+      "download_url": "http://millenniummarket.ru/files/MEmarket_0.0.1.1_AnyCPU.appxbundle",
+      "size": "0,1 MB",
+      "category": "store"
+    },
+    {
+      "id": "me.market",
+      "title": "MEmarket",
       "version": "0.0.1.1 Public Beta",
       "author": "SimpleSoftware (kameton.dev)",
       "description": "Актуальная версия магазина репозиторий MEmarket будет всегда под рукой!",
