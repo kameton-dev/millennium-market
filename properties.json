@@ -5,80 +5,80 @@
   "apps": [
     {
       "id": "me.market",
+      "base_url": "http://millenniummarket.ru/apps/me.market/",
       "title": "MEmarket",
-      "version": "0.0.1.2 Public Beta",
+      "screenshots": [],
       "author": "SimpleSoftware (kameton.dev)",
       "description": "Актуальная версия магазина репозиторий MEmarket будет всегда под рукой!",
-      "icon_url": "http://millenniummarket.ru/icons/logo-memarket.png",
-      "download_url": "http://millenniummarket.ru/files/MEmarket_0.0.1.1_AnyCPU.appxbundle",
+      "icon_url": "logo-memarket.png",
       "size": "0,1 MB",
-      "category": "store"
-    },
-    {
-      "id": "me.market",
-      "title": "MEmarket",
-      "version": "0.0.1.1 Public Beta",
-      "author": "SimpleSoftware (kameton.dev)",
-      "description": "Актуальная версия магазина репозиторий MEmarket будет всегда под рукой!",
-      "icon_url": "http://millenniummarket.ru/icons/logo-memarket.png",
-      "download_url": "http://millenniummarket.ru/files/MEmarket_0.0.1.1_AnyCPU.appxbundle",
-      "size": "0,1 MB",
-      "category": "store"
-    },
-    {
-      "id": "me.market",
-      "title": "MEmarket",
-      "version": "0.0.1.0 Public Beta",
-      "author": "SimpleSoftware (kameton.dev)",
-      "description": "Актуальная версия магазина репозиторий MEmarket будет всегда под рукой!",
-      "icon_url": "http://millenniummarket.ru/icons/logo-memarket.png",
-      "download_url": "http://millenniummarket.ru/files/MEmarket_0.0.1.0_AnyCPU.appxbundle",
-      "size": "0,1 MB",
-      "category": "store"
+      "category": "store",
+      "versions": [
+        {
+            "version": "0.0.1.0 Public Beta",
+            "download_url": "http://millenniummarket.ru/apps/me.market/MEmarket_0.0.1.0_AnyCPU.appxbundle"
+        },
+        {
+            "version": "0.0.1.1 Public Beta",
+            "download_url": "http://millenniummarket.ru/apps/me.market/MEmarket_0.0.1.1_AnyCPU.appxbundle"
+        },
+        {
+            "version": "0.0.1.2 Public Beta",
+            "download_url": "http://millenniummarket.ru/apps/me.market/MEmarket_0.0.1.2_AnyCPU.appxbundle"
+        }
+      ]
     },
     {
       "id": "simple.notes",
+      "base_url": "http://millenniummarket.ru/apps/simple.notes/",
       "title": "SimpleNotes",
-      "version": "1.1 SGU1",
+      "screenshots": [],
       "author": "SimpleSoftware (kameton.dev)",
       "description": "Обычное приложение заметок для WindowsPhone 8 с функцией прикрепления фотографий",
-      "icon_url": "http://millenniummarket.ru/icons/sn.png",
-      "download_url": "http://millenniummarket.ru/files/SimpleNotes.xap",
+      "icon_url": "sn.png",
       "size": "0,6 MB",
-      "category": "note"
+      "category": "note",
+      "version": "1.1 SGU1",
+      "download_url": "http://millenniummarket.ru/apps/simple.notes/SimpleNotes_1.1_SGU1_RU.xap"
     },
     {
       "id": "simple.tasks",
+      "base_url": "http://millenniummarket.ru/apps/simple.tasks/",
       "title": "SimpleTasks",
-      "version": "1.0 Release",
+      "screenshots": [],
       "author": "SimpleSoftware (kameton.dev)",
       "description": "Приложение для планов и задач. отчасти повторяет некоторые функции системного Календаря, но чуть чуть круче и удобнее благодаря живым плиткам",
-      "icon_url": "http://millenniummarket.ru/icons/st.png",
-      "download_url": "http://millenniummarket.ru/files/SimpleTasks.xap",
+      "icon_url": "st.png",
       "size": "0.3 MB",
-      "category": "note"
+      "category": "note",
+      "version": "1.0 Release",
+      "download_url": "http://millenniummarket.ru/apps/simple.tasks/SimpleTasks_1.0_Release.xap"
     },
     {
       "id": "simple.dicta",
+      "base_url": "http://millenniummarket.ru/apps/simple.dicta/",
       "title": "SimpleDictaphone",
-      "version": "1.2 SGU1",
+      "screenshots": [],
       "author": "SimpleSoftware (kameton.dev)",
       "description": "Простое приложение для записи звука. Можно прослушивать аудиофайлы в приложении, и, при надобности, сохранять их в папку телефона (Music/SimpleDictaphone)",
-      "icon_url": "http://millenniummarket.ru/icons/sd.png",
-      "download_url": "http://millenniummarket.ru/files/SimpleDictaphone.xap",
+      "icon_url": "sd.png",
       "size": "0.6 MB",
-      "category": "tools"
+      "category": "tools",
+      "version": "1.2 SGU1",
+      "download_url": "http://millenniummarket.ru/apps/simple.dicta/SimpleDictaphone_1.2_SGU1.xap"
     },
     {
       "id": "8net.aito",
+      "base_url": "http://millenniummarket.ru/apps/8net.aito/",
       "title": "Aito Browser",
-      "version": "V3",
+      "screenshots": [],
       "author": "ChockingNetDude",
       "description": "Современный браузер для WindowsPhone 8.1 на базе MetroSurf.",
-      "icon_url": "http://millenniummarket.ru/icons/ab.png",
-      "download_url": "http://millenniummarket.ru/files/AitoBrowser.xap",
+      "icon_url": "ab.png",
       "size": "7.6 MB",
-      "category": "tools"
+      "category": "tools",
+      "version": "V3",
+      "download_url": "http://millenniummarket.ru/apps/8net.aito/AitoBrowser.xap"
     },
     {
       "id": "t.translator",
@@ -115,14 +115,16 @@
     },
     {
       "id": "8net.opentracks",
+      "base_url": "http://millenniummarket.ru/apps/8net.opentracks/",
       "title": "OpenTracks",
-      "version": "2.0.0.1",
+      "screenshots": [],
       "author": "ChockingNetDude",
       "description": "OpenTracks V2 Exploration Update| MetroUI, Explore hub is back!| Complete background play | API based | Full screen player and more..",
-      "icon_url": "http://millenniummarket.ru/icons/ot.png",
-      "download_url": "http://millenniummarket.ru/files/opentracks.appx",
+      "icon_url": "ot.png",
       "size": "4.2 MB",
-      "category": "music+video"
+      "category": "music+video",
+      "version": "2.0.0.1",
+      "download_url": "http://millenniummarket.ru/apps/8net.opentracks/OpenTracks.xap"
     },
     {
       "id": "com.hop",
