@@ -82,36 +82,42 @@
     },
     {
       "id": "t.translator",
+      "base_url": "http://millenniummarket.ru/apps/t.translator/",
       "title": "T-Translator",
-      "version": "7.4",
+      "screenshots": [],
       "author": "Eugery Domanov",
       "description": "там описание на англ мне лень переводить",
-      "icon_url": "http://millenniummarket.ru/icons/tt.png",
-      "download_url": "http://millenniummarket.ru/files/T-Translator.xap",
+      "icon_url": "tt.png",
       "size": "3.7 MB",
-      "category": "tools"
+      "category": "tools",
+      "version": "7.4",
+      "download_url": "http://millenniummarket.ru/apps/t.translator/T-Translator.xap"
     },
     {
-      "id": "pro.toolkit",
+      "id": "toolkit.pro",
+      "base_url": "http://millenniummarket.ru/apps/toolkit.pro/",
       "title": "ToolKit Pro",
-      "version": "",
+      "screenshots": [],
       "author": "CoolMedia.com",
       "description": "Все необходимые инструменты в одном универсальном приложении: линейка, фонаик, конвертер и т. д.",
-      "icon_url": "http://millenniummarket.ru/icons/tp.png",
-      "download_url": "http://millenniummarket.ru/files/ToolKitPro.appxbundle.xap",
+      "icon_url": "tp.png",
       "size": "9 MB",
-      "category": "tools"
+      "category": "tools",
+      "version": "",
+      "download_url": "http://millenniummarket.ru/apps/toolkit.pro/ToolKitPro.appxbundle.xap"
     },
     {
       "id": "aida64",
+      "base_url": "http://millenniummarket.ru/apps/aida64/",
       "title": "AIDA64",
-      "version": "1.1.1.0",
+      "screenshots": [],
       "author": "FinalWire Ltd.",
       "description": "Аида как аида, показывает все о вашем смартфоне",
-      "icon_url": "http://millenniummarket.ru/icons/a64.png",
-      "download_url": "http://millenniummarket.ru/files/AIDA64.appxbundle",
+      "icon_url": "a64.png",
       "size": "0.5 MB",
-      "category": "tools"
+      "category": "tools",
+      "version": "1.1.1.0",
+      "download_url": "http://millenniummarket.ru/apps/aida64/AIDA64.appxbundle"
     },
     {
       "id": "8net.opentracks",
@@ -127,26 +133,30 @@
       "download_url": "http://millenniummarket.ru/apps/8net.opentracks/OpenTracks.xap"
     },
     {
-      "id": "com.hop",
+      "id": "game.hop",
+      "base_url": "http://millenniummarket.ru/apps/game.hop/",
       "title": "Hop!",
-      "version": "1.1.0.0",
+      "screenshots": [],
       "author": "?",
       "description": "шарики игра круто очень скачать",
-      "icon_url": "http://millenniummarket.ru/icons/h.png",
-      "download_url": "http://millenniummarket.ru/files/Hop.appx",
+      "icon_url": "h.png",
       "size": "10.3 MB",
-      "category": "games"
+      "category": "games",
+      "version": "1.0",
+      "download_url": "http://millenniummarket.ru/apps/game.hop/Hop.xap"
     },
     {
-      "id": "com.dumbwaustodie",
+      "id": "game.dumbwaystodie2",
+      "base_url": "http://millenniummarket.ru/apps/game.dumbwaystodie2/",
       "title": "Dumb Ways To Die 2",
-      "version": "?",
+      "screenshots": [],
       "author": "Millipede",
       "description": "хз не играл",
-      "icon_url": "http://millenniummarket.ru/icons/dwtd2.png",
-      "download_url": "http://millenniummarket.ru/files/DWTD2.appxbundle.xap",
+      "icon_url": "dwtd2.png",
       "size": "23.8 MB",
-      "category": "games"
+      "category": "games",
+      "version": "?",
+      "download_url": "http://millenniummarket.ru/apps/game.dumbwaystodie2/DWTD2.appxbundle.xap"
     }
   ]
 }
