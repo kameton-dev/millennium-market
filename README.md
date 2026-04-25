@@ -3,6 +3,7 @@
 
 ## Список актуальных репозиторий:
 ```MEmarket basic - http://millenniummarket.ru/properties.json```
+
 ```Win10Markt - http://markt.hotsamsa.top/properties.json```
 
 ## Хостинг
@@ -14,18 +15,22 @@
 Вообще, структура для прилодения тут не строгая. То есть, вы можете создавать папки любых наименований. Но в пример я буду писать свою придуманную структуру:
 ```text
 example-repo/
-├── files/
-│     ├── app1.xap (или .appx)
-│     └── game1.xap (.appx)
-├── icons/
-│     ├── app1-icon.png
-│     └── game1-icon.png
-├── properties.json        <-- Главный индексный файл
-└── README.md (хз по рофлу)
-
+├── apps/
+│     ├── app.example/
+│     │    ├── app1.xap (или .appx)
+│     │    ├── app2.xap (или .appx)
+│     │    └── app-icon.png
+│     └── game.example/
+│          ├── game1.xap (или .appx)
+│          ├── game-icon.png
+│          ├── screen1.png
+│          └── screen2.png
+└── properties.json        <-- Главный индексный файл
 ```
 > [!TIP]
-> Загружайте иконки для приложений в адекватном качестве! Не 8к, но и не шакальное, чтобы бедные люмии переварили картинки
+> 1. Советую именовать папки с файлами приложений также, как их id. Так будет лучше ориентироваться
+>
+> 2. Загружайте иконки для приложений в адекватном качестве! Не 8к, но и не шакальное, чтобы бедные люмии переварили картинки
 >
 
 ## ⚙️ Структура properties.json
@@ -37,26 +42,38 @@ example-repo/
   "last_updated": "2026-04-15",
   "apps": [
     {
-      "id": "com.example.app1",
+      "id": "app.example",
+      "base_url": "http://domain.com/apps/app.example/",
       "title": "App Name",
-      "version": "1.0",
-      "author": "Developer Name",
-      "description": "Краткое описание приложения",
-      "icon_url": "https://domain.com/icons/app1-icon.png",
-      "download_url": "https://domain.com/files/app1.xap",
-      "size": "1.5 MB",
-      "category": "category_example"
+      "screenshots": ["1.png", "2.png", "3.png", "4.png"],
+      "author": "Dev Name",
+      "description": "App Description",
+      "icon_url": "app1-icon.png",
+      "size": "0,1 MB",
+      "category": "tools",
+      "versions": [
+        {
+            "version": "0.5",
+            "download_url": "http://domain.com/apps/app.example/app1.xap"
+        },
+        {
+            "version": "1.0",
+            "download_url": "http://domain.com/apps/app.example/app2.xap"
+        }
+      ]
     },
     {
       "id": "com.example.game",
+      "base_url": "http://domain.com/apps/game.example/",
       "title": "Game Name",
-      "version": "0.9b",
+      "screenshots": [],
       "author": "Вася пупкин"
       "description": "ляляля",
-      "icon_url": "https://domain.com/icons/game1-icon.png",
-      "download_url": "https://domain.com/files/game1.xap",
+      "icon_url": "game1-icon.png",
       "size": "1488 MB",
-      "category": "game"
+      "category": "game",
+      "version": "0.9b",
+      "download_url": "https://domain.com/files/game1.xap"
     }
   ]
 }
@@ -66,9 +83,12 @@ example-repo/
 | Поле | Описание |
 |---|---|
 | repo_name | Название вашего магазина, которое увидит пользователь в настройках репозиторий |
+| id | Идентефикатор приложения. Должен быть индивидуален, без 1 2 3 4 5 |
 | apps | Список объектов с данными о приложениях |
 | download_url | **Прямая** ссылка на файл. Нужна для получения и скачивания файла |
 | size | Вес файла (для информирования пользователя. если что можете приколы там делать, я мока разрешаю) |
+| versions | Если вы хотите загрузить разные версии одного приложения, используйте это поле |
+| version | Если у приложения одна версия / поле для versions |
 
 ### Список актуальных сортируемых категорий:
 | "category": "..." | Название |
